@@ -23,6 +23,7 @@
     <ProjectGuid>{1735E8B1-BC0D-4892-BB68-45F19CEA58B8}</ProjectGuid>
     <RootNamespace>Assignment3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>Match Card Game</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -111,6 +112,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Functors.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="MatchCard.h" />
+    <ClInclude Include="MatchGame.h" />
+    <ClInclude Include="MatchPlayer.h" />
+    <ClInclude Include="OrderedList.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="Stack.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MatchCard.cpp" />
+    <ClCompile Include="MatchGame.cpp" />
+    <ClCompile Include="MatchPlayer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
